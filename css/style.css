@@ -129,6 +129,15 @@ img {
  ************************************************/
 /* BONUS */
 
+@media only screen and (min-width: 769px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+}
 
 
 
