@@ -128,7 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media all and (min-width: 481px) and (max-width: 1160px) {
+@media all and (min-width: 481px) and (max-width: 768px) {
     section,
     div,
     h1,
@@ -137,23 +137,30 @@ img {
     p,
     .text-center {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: baseline;
+        justify-content: center;
     }
     
 }
 
+
 @media all and (max-width: 480px) {
     section,
     div,
-    h1,
-    h2
-    h3,
     p,
     .text-center  {
         display: flex;
         flex-direction: column;
         align-items: baseline;
+        justify-content: center;
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+    .text-center  {
+        align-items: center;
     }
     
 }
