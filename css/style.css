@@ -161,7 +161,7 @@ img {
 
 @media all and (max-width: 480px) {
     .container  {
-        width: 480px;
+        max-width: 480px;
     }
     
 }
