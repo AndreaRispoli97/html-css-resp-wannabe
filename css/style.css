@@ -127,8 +127,38 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
 
-@media all and (min-width: 481px) and (max-width: 768px) {
+
+
+
+/* Smartphone */
+
+@media only screen and (max-width: 480px) {
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+}
+
+
+
+
+
+
+
+/* @media all and (min-width: 481px) and (max-width: 768px) {
     section,
     div,
     p,
@@ -168,5 +198,5 @@ img {
         width: 100%;
     }
     
-}
+} */
 
